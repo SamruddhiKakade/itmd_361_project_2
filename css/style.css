@@ -3,6 +3,10 @@
 
 /* same style elements common in the pages */
 
+ul {
+  list-style: none;
+}
+
 body {
   font-family: sans-serif;  
   background-color: #F5F5F5;  
@@ -106,6 +110,7 @@ a:hover {
 }
 
 #experiences-main .internship, #azure-info {
+  float: left;
   background-color: #F7F7F7;  
   padding: 1rem;
   border-radius: 5px;
@@ -113,6 +118,7 @@ a:hover {
 }
 
 #experiences-main em {
+  float: left;
   color: #888888;  
   font-style: italic;
 }
@@ -130,14 +136,16 @@ a:hover {
 /* Style elements for class_projects page */
 
 #class-projects-main h1 {
+  float: left;
   font-size: 2.5rem;
-  border-bottom: 2px dashed #666666; 
+  border-bottom: 0.15rem dashed #666666; 
   margin-bottom: 1.5rem;
 }
 
 #class-projects-main div {
+  float: left;
   background-color: #EFEFEF;  
-  border-radius: 5px;
+  border-radius: 3rem;
   margin-bottom: 1.5rem;
 }
 
